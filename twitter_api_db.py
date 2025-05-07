@@ -14,13 +14,13 @@ from requests_oauthlib import OAuth1
 # 1) CREDENCIALES
 #    (en producción usa variables de entorno; aquí las pego
 #     para que corra tal cual)
-CONSUMER_KEY    = "VCOwSw4K3j0nrDPEwlA2C7Su3"
-CONSUMER_SECRET = "keHPknlYuJJKipbIAsRMLzrTWxSQosOOdNJPRTCGzkwqql1iS2"
-ACCESS_TOKEN    = "1877811271229435904-VZQwc1UyXYpOeYAN1qzd4gwcjzHwdY"
-ACCESS_SECRET   = "brw73aRsvnRZX86dHarG4udkId58YXlhunyMkcxy1cro4"
+CONSUMER_KEY    = ""
+CONSUMER_SECRET = ""
+ACCESS_TOKEN    = ""
+ACCESS_SECRET   = ""
 
-SUPABASE_URL = "https://reilyngaidrxfsoglnqz.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJlaWx5bmdhaWRyeGZzb2dsbnF6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NjU1MDQ4NSwiZXhwIjoyMDYyMTI2NDg1fQ.RNRdyJbBNYSFiBGEIBWs_F0FzFBnid1IL6b4ygRgD6M"
+SUPABASE_URL = ""
+SUPABASE_KEY = ""
 
 if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET]):
     sys.exit("❌  Faltan credenciales de X.")
